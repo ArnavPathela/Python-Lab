@@ -10,10 +10,15 @@ Pattern:
 
 Pattern #2: Inverted Pyramid of Numbers
 Pattern:
+
 1 1 1 1 1 
+
  2 2 2 2 
+
   3 3 3 
+
    4 4 
+
     5
 
 Pattern #3: Half Pyramid Pattern of Numbers
