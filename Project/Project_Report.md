@@ -17,12 +17,19 @@ The primary objectives of this project were to:
 3. Technologies Used
 
 
+
 	•	Flask: Used as the main web framework to route HTTP requests and manage backend functionality.
+
 	•	Flask-SQLAlchemy: Simplified database interactions and ORM management for journal entries.
-	•	HTML/CSS: For creating a responsive front-end interface.
+
+	•	HTML: For creating a responsive front-end interface.
+
 	•	Jinja2: Template engine used within Flask to dynamically render HTML content.
+
 	•	Bootstrap: Provided the CSS framework for responsive and professional UI design.
+
 	•	SQLite: Used as the database solution for managing journal data, user information, and session states.
+
 
 4. Features
 
