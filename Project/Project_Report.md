@@ -64,7 +64,6 @@ The project is organized into several components, each responsible for a distinc
                 Routes: Defined in route.py, containing all route functions for login, registration, dashboard, adding/viewing journals, and deleting entries.
 	•	Templates: HTML templates for each page (e.g., login.html, register.html, add.html, view.html) use Jinja2 templating to render data dynamically based on the current user session.
 	•	Database Model: SQLAlchemy models are used to define tables, including User for user information and Journal for journal entries.
-	•	Static Files: CSS and JavaScript files are stored in a static folder, helping enhance the front-end.
 
 5.2 Database Design
 
