@@ -1,4 +1,4 @@
-Project Report: Journal Management Web Application
+Project Report: Journal Web Application
 
 1. Introduction
 
