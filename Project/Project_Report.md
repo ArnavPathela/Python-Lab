@@ -2,7 +2,7 @@ Project Report: Journal Web Application
 
 1. Introduction
 
-This project is a web-based journal management application designed to allow users to create, view, and delete journal entries. Built using Flask, this application leverages a clean, user-friendly interface and a structured backend to manage user sessions and journal data. The project was developed to practice and demonstrate skills in Python web development, specifically using the Flask framework, SQLAlchemy for database interactions, and HTML/CSS for front-end design.
+This project is a web-based journal management application designed to allow users to create, view, and delete journal entries. Built using Flask, this application leverages a clean, user-friendly interface and a structured backend to manage user sessions and journal data. The project was developed to practice and demonstrate skills in Python web development, specifically using the Flask framework, SQLAlchemy for database interactions, and HTML/BOOTSTRAP for front-end design.
 
 2. Project Objectives
 
