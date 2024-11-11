@@ -27,17 +27,22 @@ The primary objectives of this project were to:
 The journal management application includes several key features:
 
 4.1 User Authentication
-                Registration: New users can register with their email and password, creating a unique account.
+
+        •       Registration: New users can register with their email and password, creating a unique account.
+
 	•	Login and Logout: Secure login functionality using session management allows users to access their account, while logout removes the session.
+
 	•	Session Handling: Flask’s session feature stores session data securely, ensuring that each user remains logged in across pages.
 
 4.2 Journal Management
-                Add Journal Entry: Authenticated users can create new journal entries, providing a title and content.
+
+        •        Add Journal Entry: Authenticated users can create new journal entries, providing a title and content.
 	•	View Journal Entries: Users can view a list of their journal entries. If no entries exist, the application renders a message stating “No journals available.”
 	•	Delete Journal Entry: Users can delete unwanted entries using a delete button next to each entry.
 
 4.3 Navigation and Interface
-                Dashboard: After logging in, users are directed to a dashboard that provides quick access to add, view, and delete journals.
+
+        •      Dashboard: After logging in, users are directed to a dashboard that provides quick access to add, view, and delete journals.
 	•	Error Handling and Alerts: Flash messages inform users of errors (e.g., “Email required,” “Password required”) or success actions (e.g., “Journal added successfully”).
 
 5. Implementation Overview
