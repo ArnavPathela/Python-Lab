@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Journal</title>
+</head>
+<body>
+    <h1>Edit Journal</h1>
+    <form method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" value="{{ journal.title }}" required><br><br>
+        
+        <label for="content">Content:</label><br>
+        <textarea id="content" name="content" rows="5" required>{{ journal.content }}</textarea><br><br>
+        
+        <button type="submit">Save Changes</button>
+    </form>
+    <br>
+    <a href="{{ url_for('view') }}">Back to Journals</a>
+</body>
+</html>
+{% endblock %}
